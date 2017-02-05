@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A21A341E47969100DCDABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A331E47969100DCDABA /* main.m */; };
+		32A21A371E47969100DCDABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A361E47969100DCDABA /* AppDelegate.m */; };
+		32A21A3F1E47969100DCDABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A3E1E47969100DCDABA /* Assets.xcassets */; };
+		32A21A421E47969100DCDABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A401E47969100DCDABA /* LaunchScreen.storyboard */; };
+		32A21A561E4797AF00DCDABA /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A541E4797AF00DCDABA /* MainController.m */; };
+		32A21A571E4797AF00DCDABA /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A551E4797AF00DCDABA /* MainController.xib */; };
+		32A21A5A1E4797DA00DCDABA /* MainModuleConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */; };
+		32A21A641E4799F400DCDABA /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A631E4799F400DCDABA /* MainPresenter.m */; };
+		32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A661E479A0500DCDABA /* MainInteractor.m */; };
+		32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A691E479A1600DCDABA /* MainRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32A21A2F1E47969100DCDABA /* TEST_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A21A331E47969100DCDABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A21A351E47969100DCDABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A21A361E47969100DCDABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32A21A3E1E47969100DCDABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A21A411E47969100DCDABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32A21A431E47969100DCDABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A21A531E4797AF00DCDABA /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		32A21A541E4797AF00DCDABA /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		32A21A551E4797AF00DCDABA /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		32A21A581E4797DA00DCDABA /* MainModuleConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModuleConstructor.h; sourceTree = "<group>"; };
+		32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModuleConstructor.m; sourceTree = "<group>"; };
+		32A21A5D1E47995F00DCDABA /* MainControllerInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControllerInputProtocol.h; sourceTree = "<group>"; };
+		32A21A5E1E47997B00DCDABA /* MainControllerOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControllerOutputProtocol.h; sourceTree = "<group>"; };
+		32A21A5F1E47999A00DCDABA /* MainInteractorInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInteractorInputProtocol.h; sourceTree = "<group>"; };
+		32A21A601E4799AF00DCDABA /* MainInteractorOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInteractorOutputProtocol.h; sourceTree = "<group>"; };
+		32A21A611E4799C200DCDABA /* MainRouterInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRouterInputProtocol.h; sourceTree = "<group>"; };
+		32A21A621E4799F400DCDABA /* MainPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
+		32A21A631E4799F400DCDABA /* MainPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPresenter.m; sourceTree = "<group>"; };
+		32A21A651E479A0500DCDABA /* MainInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInteractor.h; sourceTree = "<group>"; };
+		32A21A661E479A0500DCDABA /* MainInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInteractor.m; sourceTree = "<group>"; };
+		32A21A681E479A1600DCDABA /* MainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRouter.h; sourceTree = "<group>"; };
+		32A21A691E479A1600DCDABA /* MainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainRouter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A21A2C1E47969000DCDABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A21A261E47969000DCDABA = {
+			isa = PBXGroup;
+			children = (
+				32A21A311E47969100DCDABA /* TEST_VIPER */,
+				32A21A301E47969100DCDABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A21A301E47969100DCDABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A21A2F1E47969100DCDABA /* TEST_VIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A21A311E47969100DCDABA /* TEST_VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				32A21A351E47969100DCDABA /* AppDelegate.h */,
+				32A21A361E47969100DCDABA /* AppDelegate.m */,
+				32A21A501E4797AF00DCDABA /* Classes */,
+				32A21A321E47969100DCDABA /* Supporting Files */,
+			);
+			path = TEST_VIPER;
+			sourceTree = "<group>";
+		};
+		32A21A321E47969100DCDABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A21A3E1E47969100DCDABA /* Assets.xcassets */,
+				32A21A401E47969100DCDABA /* LaunchScreen.storyboard */,
+				32A21A431E47969100DCDABA /* Info.plist */,
+				32A21A331E47969100DCDABA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A21A501E4797AF00DCDABA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32A21A511E4797AF00DCDABA /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32A21A511E4797AF00DCDABA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				32A21A521E4797AF00DCDABA /* MainModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		32A21A521E4797AF00DCDABA /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				32A21A581E4797DA00DCDABA /* MainModuleConstructor.h */,
+				32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */,
+				32A21A5C1E47995F00DCDABA /* Protocols */,
+				32A21A531E4797AF00DCDABA /* MainController.h */,
+				32A21A541E4797AF00DCDABA /* MainController.m */,
+				32A21A551E4797AF00DCDABA /* MainController.xib */,
+				32A21A621E4799F400DCDABA /* MainPresenter.h */,
+				32A21A631E4799F400DCDABA /* MainPresenter.m */,
+				32A21A651E479A0500DCDABA /* MainInteractor.h */,
+				32A21A661E479A0500DCDABA /* MainInteractor.m */,
+				32A21A681E479A1600DCDABA /* MainRouter.h */,
+				32A21A691E479A1600DCDABA /* MainRouter.m */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		32A21A5C1E47995F00DCDABA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				32A21A5D1E47995F00DCDABA /* MainControllerInputProtocol.h */,
+				32A21A5E1E47997B00DCDABA /* MainControllerOutputProtocol.h */,
+				32A21A5F1E47999A00DCDABA /* MainInteractorInputProtocol.h */,
+				32A21A601E4799AF00DCDABA /* MainInteractorOutputProtocol.h */,
+				32A21A611E4799C200DCDABA /* MainRouterInputProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A21A2E1E47969000DCDABA /* TEST_VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A21A461E47969100DCDABA /* Build configuration list for PBXNativeTarget "TEST_VIPER" */;
+			buildPhases = (
+				32A21A2B1E47969000DCDABA /* Sources */,
+				32A21A2C1E47969000DCDABA /* Frameworks */,
+				32A21A2D1E47969000DCDABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEST_VIPER;
+			productName = TEST_VIPER;
+			productReference = 32A21A2F1E47969100DCDABA /* TEST_VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A21A271E47969000DCDABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dmitriy Baklanov";
+				TargetAttributes = {
+					32A21A2E1E47969000DCDABA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32A21A2A1E47969000DCDABA /* Build configuration list for PBXProject "TEST_VIPER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A21A261E47969000DCDABA;
+			productRefGroup = 32A21A301E47969100DCDABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A21A2E1E47969000DCDABA /* TEST_VIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A21A2D1E47969000DCDABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A21A421E47969100DCDABA /* LaunchScreen.storyboard in Resources */,
+				32A21A3F1E47969100DCDABA /* Assets.xcassets in Resources */,
+				32A21A571E4797AF00DCDABA /* MainController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A21A2B1E47969000DCDABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A21A371E47969100DCDABA /* AppDelegate.m in Sources */,
+				32A21A561E4797AF00DCDABA /* MainController.m in Sources */,
+				32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */,
+				32A21A341E47969100DCDABA /* main.m in Sources */,
+				32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */,
+				32A21A5A1E4797DA00DCDABA /* MainModuleConstructor.m in Sources */,
+				32A21A641E4799F400DCDABA /* MainPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32A21A401E47969100DCDABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A21A411E47969100DCDABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A21A441E47969100DCDABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32A21A451E47969100DCDABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A21A471E47969100DCDABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEST_VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitriy.baklanov.TEST-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32A21A481E47969100DCDABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEST_VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitriy.baklanov.TEST-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A21A2A1E47969000DCDABA /* Build configuration list for PBXProject "TEST_VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A21A441E47969100DCDABA /* Debug */,
+				32A21A451E47969100DCDABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A21A461E47969100DCDABA /* Build configuration list for PBXNativeTarget "TEST_VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A21A471E47969100DCDABA /* Debug */,
+				32A21A481E47969100DCDABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A21A271E47969000DCDABA /* Project object */;
+}
