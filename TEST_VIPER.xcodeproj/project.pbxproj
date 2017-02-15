@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3220AB9F1E5477D400393393 /* ObjectInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220AB9E1E5477D400393393 /* ObjectInfoViewModel.m */; };
+		3233F9401E47D4EE0039019B /* ManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3233F9311E47D4EE0039019B /* ManagedObject.m */; };
+		3233F9411E47D4EE0039019B /* NonameService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3233F9351E47D4EE0039019B /* NonameService.m */; };
+		3233F9421E47D4EE0039019B /* ObjectViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3233F9391E47D4EE0039019B /* ObjectViewModel.m */; };
+		3233F9431E47D4EE0039019B /* ObjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3233F93E1E47D4EE0039019B /* ObjectTableViewCell.m */; };
+		3233F9441E47D4EE0039019B /* ObjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3233F93F1E47D4EE0039019B /* ObjectTableViewCell.xib */; };
+		3233F94C1E47D5580039019B /* ManagedObjectStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3233F94B1E47D5580039019B /* ManagedObjectStorage.m */; };
 		32A21A341E47969100DCDABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A331E47969100DCDABA /* main.m */; };
 		32A21A371E47969100DCDABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A361E47969100DCDABA /* AppDelegate.m */; };
 		32A21A3F1E47969100DCDABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A3E1E47969100DCDABA /* Assets.xcassets */; };
@@ -17,9 +24,27 @@
 		32A21A641E4799F400DCDABA /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A631E4799F400DCDABA /* MainPresenter.m */; };
 		32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A661E479A0500DCDABA /* MainInteractor.m */; };
 		32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A691E479A1600DCDABA /* MainRouter.m */; };
+		32AD2B541E525B6F0031CC54 /* ObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B521E525B6F0031CC54 /* ObjectController.m */; };
+		32AD2B551E525B6F0031CC54 /* ObjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AD2B531E525B6F0031CC54 /* ObjectController.xib */; };
+		32AD2B581E525BA40031CC54 /* ObjectModuleConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */; };
+		32AD2B611E525C420031CC54 /* ObjectPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B601E525C420031CC54 /* ObjectPresenter.m */; };
+		32AD2B641E525C590031CC54 /* ObjectInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B631E525C590031CC54 /* ObjectInteractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3220AB9D1E5477D400393393 /* ObjectInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectInfoViewModel.h; path = ObjectInfoViewModel/ObjectInfoViewModel.h; sourceTree = "<group>"; };
+		3220AB9E1E5477D400393393 /* ObjectInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectInfoViewModel.m; path = ObjectInfoViewModel/ObjectInfoViewModel.m; sourceTree = "<group>"; };
+		3233F9301E47D4EE0039019B /* ManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObject.h; sourceTree = "<group>"; };
+		3233F9311E47D4EE0039019B /* ManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObject.m; sourceTree = "<group>"; };
+		3233F9341E47D4EE0039019B /* NonameService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonameService.h; sourceTree = "<group>"; };
+		3233F9351E47D4EE0039019B /* NonameService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonameService.m; sourceTree = "<group>"; };
+		3233F9381E47D4EE0039019B /* ObjectViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectViewModel.h; sourceTree = "<group>"; };
+		3233F9391E47D4EE0039019B /* ObjectViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectViewModel.m; sourceTree = "<group>"; };
+		3233F93D1E47D4EE0039019B /* ObjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectTableViewCell.h; sourceTree = "<group>"; };
+		3233F93E1E47D4EE0039019B /* ObjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectTableViewCell.m; sourceTree = "<group>"; };
+		3233F93F1E47D4EE0039019B /* ObjectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectTableViewCell.xib; sourceTree = "<group>"; };
+		3233F94A1E47D5580039019B /* ManagedObjectStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectStorage.h; sourceTree = "<group>"; };
+		3233F94B1E47D5580039019B /* ManagedObjectStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectStorage.m; sourceTree = "<group>"; };
 		32A21A2F1E47969100DCDABA /* TEST_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A21A331E47969100DCDABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32A21A351E47969100DCDABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +68,19 @@
 		32A21A661E479A0500DCDABA /* MainInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInteractor.m; sourceTree = "<group>"; };
 		32A21A681E479A1600DCDABA /* MainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRouter.h; sourceTree = "<group>"; };
 		32A21A691E479A1600DCDABA /* MainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainRouter.m; sourceTree = "<group>"; };
+		32AD2B511E525B6F0031CC54 /* ObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectController.h; sourceTree = "<group>"; };
+		32AD2B521E525B6F0031CC54 /* ObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectController.m; sourceTree = "<group>"; };
+		32AD2B531E525B6F0031CC54 /* ObjectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectController.xib; sourceTree = "<group>"; };
+		32AD2B561E525BA40031CC54 /* ObjectModuleConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectModuleConstructor.h; sourceTree = "<group>"; };
+		32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectModuleConstructor.m; sourceTree = "<group>"; };
+		32AD2B5B1E525BDF0031CC54 /* ObjectControllerInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectControllerInputProtocol.h; sourceTree = "<group>"; };
+		32AD2B5C1E525BF80031CC54 /* ObjectControllerOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectControllerOutputProtocol.h; sourceTree = "<group>"; };
+		32AD2B5D1E525C160031CC54 /* ObjectInteractorInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInteractorInputProtocol.h; sourceTree = "<group>"; };
+		32AD2B5E1E525C280031CC54 /* ObjectInteractorOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInteractorOutputProtocol.h; sourceTree = "<group>"; };
+		32AD2B5F1E525C420031CC54 /* ObjectPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectPresenter.h; sourceTree = "<group>"; };
+		32AD2B601E525C420031CC54 /* ObjectPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectPresenter.m; sourceTree = "<group>"; };
+		32AD2B621E525C590031CC54 /* ObjectInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInteractor.h; sourceTree = "<group>"; };
+		32AD2B631E525C590031CC54 /* ObjectInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInteractor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3220ABA01E5477D800393393 /* ObjectInfoViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3220AB9D1E5477D400393393 /* ObjectInfoViewModel.h */,
+				3220AB9E1E5477D400393393 /* ObjectInfoViewModel.m */,
+			);
+			name = ObjectInfoViewModel;
+			sourceTree = "<group>";
+		};
+		3233F92E1E47D4EE0039019B /* Entites */ = {
+			isa = PBXGroup;
+			children = (
+				3233F92F1E47D4EE0039019B /* ManagedObject */,
+			);
+			path = Entites;
+			sourceTree = "<group>";
+		};
+		3233F92F1E47D4EE0039019B /* ManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				3233F9301E47D4EE0039019B /* ManagedObject.h */,
+				3233F9311E47D4EE0039019B /* ManagedObject.m */,
+			);
+			path = ManagedObject;
+			sourceTree = "<group>";
+		};
+		3233F9321E47D4EE0039019B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3233F9331E47D4EE0039019B /* NonameService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3233F9331E47D4EE0039019B /* NonameService */ = {
+			isa = PBXGroup;
+			children = (
+				3233F9341E47D4EE0039019B /* NonameService.h */,
+				3233F9351E47D4EE0039019B /* NonameService.m */,
+			);
+			path = NonameService;
+			sourceTree = "<group>";
+		};
+		3233F9361E47D4EE0039019B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3233F9371E47D4EE0039019B /* ObjectViewModel */,
+				3220ABA01E5477D800393393 /* ObjectInfoViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3233F9371E47D4EE0039019B /* ObjectViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3233F9381E47D4EE0039019B /* ObjectViewModel.h */,
+				3233F9391E47D4EE0039019B /* ObjectViewModel.m */,
+			);
+			path = ObjectViewModel;
+			sourceTree = "<group>";
+		};
+		3233F93A1E47D4EE0039019B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3233F93B1E47D4EE0039019B /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3233F93B1E47D4EE0039019B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3233F93C1E47D4EE0039019B /* ObjectTableViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3233F93C1E47D4EE0039019B /* ObjectTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3233F93D1E47D4EE0039019B /* ObjectTableViewCell.h */,
+				3233F93E1E47D4EE0039019B /* ObjectTableViewCell.m */,
+				3233F93F1E47D4EE0039019B /* ObjectTableViewCell.xib */,
+			);
+			path = ObjectTableViewCell;
+			sourceTree = "<group>";
+		};
+		3233F9481E47D5580039019B /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+				3233F9491E47D5580039019B /* ManagedObjectStorage */,
+			);
+			path = Storages;
+			sourceTree = "<group>";
+		};
+		3233F9491E47D5580039019B /* ManagedObjectStorage */ = {
+			isa = PBXGroup;
+			children = (
+				3233F94A1E47D5580039019B /* ManagedObjectStorage.h */,
+				3233F94B1E47D5580039019B /* ManagedObjectStorage.m */,
+			);
+			path = ManagedObjectStorage;
+			sourceTree = "<group>";
+		};
 		32A21A261E47969000DCDABA = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +240,11 @@
 			isa = PBXGroup;
 			children = (
 				32A21A511E4797AF00DCDABA /* Modules */,
+				3233F9321E47D4EE0039019B /* Services */,
+				3233F9481E47D5580039019B /* Storages */,
+				3233F92E1E47D4EE0039019B /* Entites */,
+				3233F9361E47D4EE0039019B /* ViewModels */,
+				3233F93A1E47D4EE0039019B /* Views */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -106,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				32A21A521E4797AF00DCDABA /* MainModule */,
+				32AD2B501E525B6F0031CC54 /* ObjectModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -137,6 +285,34 @@
 				32A21A5F1E47999A00DCDABA /* MainInteractorInputProtocol.h */,
 				32A21A601E4799AF00DCDABA /* MainInteractorOutputProtocol.h */,
 				32A21A611E4799C200DCDABA /* MainRouterInputProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		32AD2B501E525B6F0031CC54 /* ObjectModule */ = {
+			isa = PBXGroup;
+			children = (
+				32AD2B561E525BA40031CC54 /* ObjectModuleConstructor.h */,
+				32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */,
+				32AD2B5A1E525BDF0031CC54 /* Protocols */,
+				32AD2B511E525B6F0031CC54 /* ObjectController.h */,
+				32AD2B521E525B6F0031CC54 /* ObjectController.m */,
+				32AD2B531E525B6F0031CC54 /* ObjectController.xib */,
+				32AD2B5F1E525C420031CC54 /* ObjectPresenter.h */,
+				32AD2B601E525C420031CC54 /* ObjectPresenter.m */,
+				32AD2B621E525C590031CC54 /* ObjectInteractor.h */,
+				32AD2B631E525C590031CC54 /* ObjectInteractor.m */,
+			);
+			path = ObjectModule;
+			sourceTree = "<group>";
+		};
+		32AD2B5A1E525BDF0031CC54 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				32AD2B5B1E525BDF0031CC54 /* ObjectControllerInputProtocol.h */,
+				32AD2B5C1E525BF80031CC54 /* ObjectControllerOutputProtocol.h */,
+				32AD2B5D1E525C160031CC54 /* ObjectInteractorInputProtocol.h */,
+				32AD2B5E1E525C280031CC54 /* ObjectInteractorOutputProtocol.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -201,7 +377,9 @@
 			files = (
 				32A21A421E47969100DCDABA /* LaunchScreen.storyboard in Resources */,
 				32A21A3F1E47969100DCDABA /* Assets.xcassets in Resources */,
+				3233F9441E47D4EE0039019B /* ObjectTableViewCell.xib in Resources */,
 				32A21A571E4797AF00DCDABA /* MainController.xib in Resources */,
+				32AD2B551E525B6F0031CC54 /* ObjectController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,12 +391,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A21A371E47969100DCDABA /* AppDelegate.m in Sources */,
+				32AD2B541E525B6F0031CC54 /* ObjectController.m in Sources */,
+				3233F9431E47D4EE0039019B /* ObjectTableViewCell.m in Sources */,
 				32A21A561E4797AF00DCDABA /* MainController.m in Sources */,
 				32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */,
 				32A21A341E47969100DCDABA /* main.m in Sources */,
 				32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */,
 				32A21A5A1E4797DA00DCDABA /* MainModuleConstructor.m in Sources */,
+				32AD2B611E525C420031CC54 /* ObjectPresenter.m in Sources */,
+				3233F9411E47D4EE0039019B /* NonameService.m in Sources */,
+				3233F9401E47D4EE0039019B /* ManagedObject.m in Sources */,
 				32A21A641E4799F400DCDABA /* MainPresenter.m in Sources */,
+				3233F94C1E47D5580039019B /* ManagedObjectStorage.m in Sources */,
+				3220AB9F1E5477D400393393 /* ObjectInfoViewModel.m in Sources */,
+				3233F9421E47D4EE0039019B /* ObjectViewModel.m in Sources */,
+				32AD2B581E525BA40031CC54 /* ObjectModuleConstructor.m in Sources */,
+				32AD2B641E525C590031CC54 /* ObjectInteractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +553,7 @@
 				32A21A481E47969100DCDABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

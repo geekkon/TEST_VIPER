@@ -10,4 +10,6 @@
 
 @protocol MainRouterInputProtocol <NSObject>
 
+- (void)showObjectControllerWithID:(NSInteger)objectID;
+
 @end

@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@class ObjectViewModel;
+
 @protocol MainInteractorOutputProtocol <NSObject>
+
+- (void)assignObjectViewModels:(NSArray <ObjectViewModel *> *)objectViewModels;
+- (void)errorOccured:(NSError *)error;
 
 @end

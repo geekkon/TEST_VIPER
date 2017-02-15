@@ -10,4 +10,7 @@
 
 @protocol MainInteractorInputProtocol <NSObject>
 
+- (void)obtainObjects;
+- (void)createNewObject;
+
 @end

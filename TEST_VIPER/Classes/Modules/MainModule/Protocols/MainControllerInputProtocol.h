@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+@class ObjectViewModel;
+
 @protocol MainControllerInputProtocol <NSObject>
+
+- (void)showActivityIndicator;
+- (void)hideActivityIndicator;
+- (void)showEmptyResultsPlaceholder;
+- (void)hideEmptyResultsPlaceholder;
+- (void)disableBarButtons;
+- (void)enableBarButtons;
+- (void)updateContentWithObjectViewModels:(NSArray <ObjectViewModel *> *)objectViewModels;
+- (void)showError:(NSError *)error;
 
 @end

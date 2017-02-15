@@ -11,5 +11,8 @@
 @protocol MainControllerOutputProtocol <NSObject>
 
 - (void)controllerDidLoad;
+- (void)controllerDidSelectObjectID:(NSInteger)objectID;
+- (void)controllerDidTapRefreshButton;
+- (void)controllerDidTapAddButton;
 
 @end

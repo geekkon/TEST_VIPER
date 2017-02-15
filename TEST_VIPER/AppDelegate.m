@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+        
     UIViewController *rootController = [MainModuleConstructor constructModule];
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootController];
