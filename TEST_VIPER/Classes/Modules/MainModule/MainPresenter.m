@@ -9,7 +9,7 @@
 #import "MainPresenter.h"
 #import "MainControllerInputProtocol.h"
 #import "MainInteractorInputProtocol.h"
-#import "MainRouterInputProtocol.h"
+#import "MainWireframeInputProtocol.h"
 
 @implementation MainPresenter
 
@@ -22,7 +22,7 @@
 }
 
 - (void)controllerDidSelectObjectID:(NSInteger)objectID {
-    [self.router showObjectControllerWithID:objectID];
+    [self.wireframe showObjectControllerWithID:objectID];
 }
 
 - (void)controllerDidTapRefreshButton {

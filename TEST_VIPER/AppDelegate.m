@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "MainModuleConstructor.h"
+#import "MainWireframe.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) MainWireframe *mainWireframe;
 
 @end
 
@@ -17,14 +19,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-        
-    UIViewController *rootController = [MainModuleConstructor constructModule];
-    
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootController];
+
+    self.mainWireframe = [[MainWireframe alloc] init];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.window.rootViewController = navigationController;
+    [self.mainWireframe installRootControllerInWindow:self.window];
     
     [self.window makeKeyAndVisible];
     

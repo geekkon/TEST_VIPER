@@ -1,19 +1,19 @@
 //
-//  ObjectModuleConstructor.m
+//  ObjectWireframe.m
 //  TEST_VIPER
 //
-//  Created by Dim on 14.02.17.
+//  Created by Dim on 17.02.17.
 //  Copyright © 2017 Dmitriy Baklanov. All rights reserved.
 //
 
-#import "ObjectModuleConstructor.h"
+#import "ObjectWireframe.h"
 #import "ObjectController.h"
 #import "ObjectPresenter.h"
 #import "ObjectInteractor.h"
 
-@implementation ObjectModuleConstructor
+@implementation ObjectWireframe
 
-+ (UIViewController *)constructModuleWithObjectID:(NSInteger)objectID {
+- (void)showObjectControllerWithObjectID:(NSInteger)objectID fromController:(UIViewController *)fromController {
     
     ObjectController *controller = [[ObjectController alloc] init];
     ObjectPresenter *presenter = [[ObjectPresenter alloc] initWithObjectID:objectID];
@@ -26,7 +26,7 @@
     
     interactor.presenter = presenter;
     
-    return controller;
+    [fromController.navigationController pushViewController:controller animated:YES];
 }
 
 @end

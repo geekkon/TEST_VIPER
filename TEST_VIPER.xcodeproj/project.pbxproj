@@ -20,15 +20,14 @@
 		32A21A421E47969100DCDABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A401E47969100DCDABA /* LaunchScreen.storyboard */; };
 		32A21A561E4797AF00DCDABA /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A541E4797AF00DCDABA /* MainController.m */; };
 		32A21A571E4797AF00DCDABA /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A551E4797AF00DCDABA /* MainController.xib */; };
-		32A21A5A1E4797DA00DCDABA /* MainModuleConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */; };
 		32A21A641E4799F400DCDABA /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A631E4799F400DCDABA /* MainPresenter.m */; };
 		32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A661E479A0500DCDABA /* MainInteractor.m */; };
-		32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A691E479A1600DCDABA /* MainRouter.m */; };
 		32AD2B541E525B6F0031CC54 /* ObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B521E525B6F0031CC54 /* ObjectController.m */; };
 		32AD2B551E525B6F0031CC54 /* ObjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AD2B531E525B6F0031CC54 /* ObjectController.xib */; };
-		32AD2B581E525BA40031CC54 /* ObjectModuleConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */; };
 		32AD2B611E525C420031CC54 /* ObjectPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B601E525C420031CC54 /* ObjectPresenter.m */; };
 		32AD2B641E525C590031CC54 /* ObjectInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B631E525C590031CC54 /* ObjectInteractor.m */; };
+		32BA62EB1E572077004F0271 /* MainWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BA62EA1E572077004F0271 /* MainWireframe.m */; };
+		32BA62F01E57276B004F0271 /* ObjectWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BA62EF1E57276B004F0271 /* ObjectWireframe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,24 +54,17 @@
 		32A21A531E4797AF00DCDABA /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		32A21A541E4797AF00DCDABA /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		32A21A551E4797AF00DCDABA /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
-		32A21A581E4797DA00DCDABA /* MainModuleConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModuleConstructor.h; sourceTree = "<group>"; };
-		32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModuleConstructor.m; sourceTree = "<group>"; };
 		32A21A5D1E47995F00DCDABA /* MainControllerInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControllerInputProtocol.h; sourceTree = "<group>"; };
 		32A21A5E1E47997B00DCDABA /* MainControllerOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControllerOutputProtocol.h; sourceTree = "<group>"; };
 		32A21A5F1E47999A00DCDABA /* MainInteractorInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInteractorInputProtocol.h; sourceTree = "<group>"; };
 		32A21A601E4799AF00DCDABA /* MainInteractorOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInteractorOutputProtocol.h; sourceTree = "<group>"; };
-		32A21A611E4799C200DCDABA /* MainRouterInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRouterInputProtocol.h; sourceTree = "<group>"; };
 		32A21A621E4799F400DCDABA /* MainPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
 		32A21A631E4799F400DCDABA /* MainPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPresenter.m; sourceTree = "<group>"; };
 		32A21A651E479A0500DCDABA /* MainInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInteractor.h; sourceTree = "<group>"; };
 		32A21A661E479A0500DCDABA /* MainInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInteractor.m; sourceTree = "<group>"; };
-		32A21A681E479A1600DCDABA /* MainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRouter.h; sourceTree = "<group>"; };
-		32A21A691E479A1600DCDABA /* MainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainRouter.m; sourceTree = "<group>"; };
 		32AD2B511E525B6F0031CC54 /* ObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectController.h; sourceTree = "<group>"; };
 		32AD2B521E525B6F0031CC54 /* ObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectController.m; sourceTree = "<group>"; };
 		32AD2B531E525B6F0031CC54 /* ObjectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectController.xib; sourceTree = "<group>"; };
-		32AD2B561E525BA40031CC54 /* ObjectModuleConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectModuleConstructor.h; sourceTree = "<group>"; };
-		32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectModuleConstructor.m; sourceTree = "<group>"; };
 		32AD2B5B1E525BDF0031CC54 /* ObjectControllerInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectControllerInputProtocol.h; sourceTree = "<group>"; };
 		32AD2B5C1E525BF80031CC54 /* ObjectControllerOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectControllerOutputProtocol.h; sourceTree = "<group>"; };
 		32AD2B5D1E525C160031CC54 /* ObjectInteractorInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInteractorInputProtocol.h; sourceTree = "<group>"; };
@@ -81,6 +73,11 @@
 		32AD2B601E525C420031CC54 /* ObjectPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectPresenter.m; sourceTree = "<group>"; };
 		32AD2B621E525C590031CC54 /* ObjectInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInteractor.h; sourceTree = "<group>"; };
 		32AD2B631E525C590031CC54 /* ObjectInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInteractor.m; sourceTree = "<group>"; };
+		32BA62E91E572077004F0271 /* MainWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWireframe.h; sourceTree = "<group>"; };
+		32BA62EA1E572077004F0271 /* MainWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWireframe.m; sourceTree = "<group>"; };
+		32BA62EC1E5721FA004F0271 /* MainWireframeInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWireframeInputProtocol.h; sourceTree = "<group>"; };
+		32BA62EE1E57276B004F0271 /* ObjectWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectWireframe.h; sourceTree = "<group>"; };
+		32BA62EF1E57276B004F0271 /* ObjectWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectWireframe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,8 +258,6 @@
 		32A21A521E4797AF00DCDABA /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				32A21A581E4797DA00DCDABA /* MainModuleConstructor.h */,
-				32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */,
 				32A21A5C1E47995F00DCDABA /* Protocols */,
 				32A21A531E4797AF00DCDABA /* MainController.h */,
 				32A21A541E4797AF00DCDABA /* MainController.m */,
@@ -271,8 +266,8 @@
 				32A21A631E4799F400DCDABA /* MainPresenter.m */,
 				32A21A651E479A0500DCDABA /* MainInteractor.h */,
 				32A21A661E479A0500DCDABA /* MainInteractor.m */,
-				32A21A681E479A1600DCDABA /* MainRouter.h */,
-				32A21A691E479A1600DCDABA /* MainRouter.m */,
+				32BA62E91E572077004F0271 /* MainWireframe.h */,
+				32BA62EA1E572077004F0271 /* MainWireframe.m */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -284,7 +279,7 @@
 				32A21A5E1E47997B00DCDABA /* MainControllerOutputProtocol.h */,
 				32A21A5F1E47999A00DCDABA /* MainInteractorInputProtocol.h */,
 				32A21A601E4799AF00DCDABA /* MainInteractorOutputProtocol.h */,
-				32A21A611E4799C200DCDABA /* MainRouterInputProtocol.h */,
+				32BA62EC1E5721FA004F0271 /* MainWireframeInputProtocol.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -292,8 +287,6 @@
 		32AD2B501E525B6F0031CC54 /* ObjectModule */ = {
 			isa = PBXGroup;
 			children = (
-				32AD2B561E525BA40031CC54 /* ObjectModuleConstructor.h */,
-				32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */,
 				32AD2B5A1E525BDF0031CC54 /* Protocols */,
 				32AD2B511E525B6F0031CC54 /* ObjectController.h */,
 				32AD2B521E525B6F0031CC54 /* ObjectController.m */,
@@ -302,6 +295,8 @@
 				32AD2B601E525C420031CC54 /* ObjectPresenter.m */,
 				32AD2B621E525C590031CC54 /* ObjectInteractor.h */,
 				32AD2B631E525C590031CC54 /* ObjectInteractor.m */,
+				32BA62EE1E57276B004F0271 /* ObjectWireframe.h */,
+				32BA62EF1E57276B004F0271 /* ObjectWireframe.m */,
 			);
 			path = ObjectModule;
 			sourceTree = "<group>";
@@ -391,13 +386,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A21A371E47969100DCDABA /* AppDelegate.m in Sources */,
+				32BA62EB1E572077004F0271 /* MainWireframe.m in Sources */,
 				32AD2B541E525B6F0031CC54 /* ObjectController.m in Sources */,
 				3233F9431E47D4EE0039019B /* ObjectTableViewCell.m in Sources */,
 				32A21A561E4797AF00DCDABA /* MainController.m in Sources */,
-				32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */,
+				32BA62F01E57276B004F0271 /* ObjectWireframe.m in Sources */,
 				32A21A341E47969100DCDABA /* main.m in Sources */,
 				32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */,
-				32A21A5A1E4797DA00DCDABA /* MainModuleConstructor.m in Sources */,
 				32AD2B611E525C420031CC54 /* ObjectPresenter.m in Sources */,
 				3233F9411E47D4EE0039019B /* NonameService.m in Sources */,
 				3233F9401E47D4EE0039019B /* ManagedObject.m in Sources */,
@@ -405,7 +400,6 @@
 				3233F94C1E47D5580039019B /* ManagedObjectStorage.m in Sources */,
 				3220AB9F1E5477D400393393 /* ObjectInfoViewModel.m in Sources */,
 				3233F9421E47D4EE0039019B /* ObjectViewModel.m in Sources */,
-				32AD2B581E525BA40031CC54 /* ObjectModuleConstructor.m in Sources */,
 				32AD2B641E525C590031CC54 /* ObjectInteractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

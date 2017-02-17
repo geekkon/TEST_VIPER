@@ -11,12 +11,12 @@
 
 @protocol MainControllerInputProtocol;
 @protocol MainInteractorInputProtocol;
-@protocol MainRouterInputProtocol;
+@protocol MainWireframeInputProtocol;
 
 @interface MainPresenter : NSObject <MainControllerOutputProtocol, MainInteractorOutputProtocol>
 
 @property (nonatomic, weak) id <MainControllerInputProtocol> controller;
 @property (nonatomic, strong) id <MainInteractorInputProtocol> interactor;
-@property (nonatomic, strong) id <MainRouterInputProtocol> router;
+@property (nonatomic, strong) id <MainWireframeInputProtocol> wireframe;
 
 @end
