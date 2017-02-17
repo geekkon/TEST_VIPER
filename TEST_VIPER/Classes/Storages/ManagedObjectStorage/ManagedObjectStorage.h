@@ -12,12 +12,10 @@
 
 @interface ManagedObjectStorage : NSObject
 
-+ (instancetype)instance;
-
 - (void)fillStorage;
 
 - (NSArray <ManagedObject *> *)allObjects;
-- (ManagedObject *)objectByID:(NSInteger)objectID;
+- (ManagedObject *)objectByID:(NSNumber *)objectID;
 
 - (void)createNewObject;
 

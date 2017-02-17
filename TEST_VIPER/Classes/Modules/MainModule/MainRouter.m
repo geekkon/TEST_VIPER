@@ -8,15 +8,20 @@
 
 #import <UIKit/UINavigationController.h>
 #import "MainRouter.h"
-#import "ObjectModuleConstructor.h"
+
+#import "ObjectAssembly.h"
+#import "ObjectPresenter.h"
 
 @implementation MainRouter
 
 #pragma mark - MainRouterInputProtocol
 
 - (void)showObjectControllerWithID:(NSInteger)objectID {
-    UIViewController *controller = [ObjectModuleConstructor constructModuleWithObjectID:objectID];
-    [self.controller.navigationController pushViewController:controller animated:YES];
+    
+    ObjectPresenter *presenter = (ObjectPresenter *)[self.objectAssembly objectPresenter];
+    presenter.objectID = @(objectID);
+    
+    [self.controller.navigationController pushViewController:(UIViewController *)presenter.controller animated:YES];
 }
 
 @end

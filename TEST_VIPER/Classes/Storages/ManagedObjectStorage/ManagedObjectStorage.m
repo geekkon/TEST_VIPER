@@ -21,15 +21,6 @@ static NSInteger const objectsCount = 10;
 
 #pragma mark - Public
 
-+ (instancetype)instance {
-    static ManagedObjectStorage *instance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [[ManagedObjectStorage alloc] init];
-    });
-    return instance;
-}
-
 - (void)fillStorage {
    self.objects = [self createManagedObjects];
 }
@@ -38,8 +29,8 @@ static NSInteger const objectsCount = 10;
     return [self.objects copy];
 }
 
-- (ManagedObject *)objectByID:(NSInteger)objectID {
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"objectID == %d", objectID];
+- (ManagedObject *)objectByID:(NSNumber *)objectID {
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"objectID == %d", [objectID integerValue]];
     NSArray <ManagedObject *> *filtered = [self.objects filteredArrayUsingPredicate:predicate];
     return filtered.firstObject;
 }

@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @class ManagedObject;
+@class ManagedObjectStorage;
 
 @interface NonameService : NSObject
 
-+ (instancetype)instance;
+@property (nonatomic, strong) ManagedObjectStorage *managedObjectStorage;
 
 - (void)fetchObjectsWithCompletion:(void (^)(BOOL success, NSError *error))completion;
 

@@ -16,8 +16,8 @@
 
 #pragma mark - ObjectInteractorInputProtocol
 
-- (void)obtainObjectWithID:(NSInteger)objectID {
-    ManagedObject *mangedObject = [[ManagedObjectStorage instance] objectByID:objectID];
+- (void)obtainObjectWithID:(NSNumber *)objectID {
+    ManagedObject *mangedObject = [self.managedObjectStorage objectByID:objectID];
     [self.presenter assignObjectInfoViewModel:[self prepareObjectInfoViewModelFromManagedObject:mangedObject]];
 }
 

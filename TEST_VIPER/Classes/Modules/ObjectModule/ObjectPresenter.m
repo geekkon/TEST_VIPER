@@ -10,23 +10,7 @@
 #import "ObjectControllerInputProtocol.h"
 #import "ObjectInteractorInputProtocol.h"
 
-@interface ObjectPresenter ()
-
-@property (nonatomic, assign) NSInteger objectID;
-
-@end
-
 @implementation ObjectPresenter
-
-#pragma mark - Public
-
-- (instancetype)initWithObjectID:(NSInteger)objectID {
-    self = [super init];
-    if (self) {
-        _objectID = objectID;
-    }
-    return self;
-}
 
 #pragma mark - ObjectControllerOutputProtocol
 

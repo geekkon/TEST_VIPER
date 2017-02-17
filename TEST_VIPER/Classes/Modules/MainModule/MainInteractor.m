@@ -19,7 +19,7 @@
 
 - (void)obtainObjects {
     __weak typeof(self) weakSelf = self;
-    [[NonameService instance] fetchObjectsWithCompletion:^(BOOL success, NSError *error) {
+    [self.nonameService fetchObjectsWithCompletion:^(BOOL success, NSError *error) {
         if (success) {
             [weakSelf obtainObjectsFromStorage];
         } else {
@@ -29,15 +29,15 @@
 }
 
 - (void)createNewObject {
-    [[ManagedObjectStorage instance] createNewObject];
-    NSArray <ManagedObject *> *managedObjects = [[ManagedObjectStorage instance] allObjects];
+    [self.managedObjectStorage createNewObject];
+    NSArray <ManagedObject *> *managedObjects = [self.managedObjectStorage allObjects];
     [self.presenter assignObjectViewModels:[self prepareObjectViewModelsFromManagedObjects:managedObjects]];
 }
 
 #pragma mark - Interactor Logic
 
 - (void)obtainObjectsFromStorage {
-    NSArray <ManagedObject *> *managedObjects = [[ManagedObjectStorage instance] allObjects];
+    NSArray <ManagedObject *> *managedObjects = [self.managedObjectStorage allObjects];
     if (arc4random_uniform(1000) % 3) {
         [self.presenter assignObjectViewModels:[self prepareObjectViewModelsFromManagedObjects:managedObjects]];
     } else {

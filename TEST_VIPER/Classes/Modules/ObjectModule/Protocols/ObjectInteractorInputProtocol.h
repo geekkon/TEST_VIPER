@@ -10,6 +10,6 @@
 
 @protocol ObjectInteractorInputProtocol <NSObject>
 
-- (void)obtainObjectWithID:(NSInteger)objectID;
+- (void)obtainObjectWithID:(NSNumber *)objectID;
 
 @end

@@ -7,11 +7,13 @@
 //
 
 #import "MainRouterInputProtocol.h"
-
+@class ObjectAssembly;
 @class UIViewController;
 
 @interface MainRouter : NSObject <MainRouterInputProtocol>
 
 @property (nonatomic, weak) UIViewController *controller;
+
+@property (nonatomic, strong) ObjectAssembly *objectAssembly;
 
 @end

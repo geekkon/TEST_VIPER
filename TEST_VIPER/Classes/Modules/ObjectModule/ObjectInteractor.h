@@ -7,11 +7,13 @@
 //
 
 #import "ObjectInteractorInputProtocol.h"
-
+@class ManagedObjectStorage;
 @protocol ObjectInteractorOutputProtocol;
 
 @interface ObjectInteractor : NSObject <ObjectInteractorInputProtocol>
 
 @property (nonatomic, weak) id <ObjectInteractorOutputProtocol> presenter;
+
+@property (nonatomic, strong) ManagedObjectStorage *managedObjectStorage;
 
 @end

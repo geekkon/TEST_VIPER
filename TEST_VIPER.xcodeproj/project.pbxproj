@@ -20,18 +20,20 @@
 		32A21A421E47969100DCDABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A401E47969100DCDABA /* LaunchScreen.storyboard */; };
 		32A21A561E4797AF00DCDABA /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A541E4797AF00DCDABA /* MainController.m */; };
 		32A21A571E4797AF00DCDABA /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A21A551E4797AF00DCDABA /* MainController.xib */; };
-		32A21A5A1E4797DA00DCDABA /* MainModuleConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */; };
 		32A21A641E4799F400DCDABA /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A631E4799F400DCDABA /* MainPresenter.m */; };
 		32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A661E479A0500DCDABA /* MainInteractor.m */; };
 		32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A21A691E479A1600DCDABA /* MainRouter.m */; };
 		32AD2B541E525B6F0031CC54 /* ObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B521E525B6F0031CC54 /* ObjectController.m */; };
 		32AD2B551E525B6F0031CC54 /* ObjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AD2B531E525B6F0031CC54 /* ObjectController.xib */; };
-		32AD2B581E525BA40031CC54 /* ObjectModuleConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */; };
 		32AD2B611E525C420031CC54 /* ObjectPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B601E525C420031CC54 /* ObjectPresenter.m */; };
 		32AD2B641E525C590031CC54 /* ObjectInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2B631E525C590031CC54 /* ObjectInteractor.m */; };
+		759EABCD1E57004F00D3EE9F /* MainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 759EABCC1E57004F00D3EE9F /* MainAssembly.m */; };
+		759EABD01E5700CC00D3EE9F /* ObjectAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 759EABCF1E5700CC00D3EE9F /* ObjectAssembly.m */; };
+		F810EC3C014E7AC885AFD442 /* libPods-TEST_VIPER.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E4AE111E2F92210B8C0073 /* libPods-TEST_VIPER.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FC4A0F22B9E674F8A256F52 /* Pods-TEST_VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEST_VIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-TEST_VIPER/Pods-TEST_VIPER.release.xcconfig"; sourceTree = "<group>"; };
 		3220AB9D1E5477D400393393 /* ObjectInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectInfoViewModel.h; path = ObjectInfoViewModel/ObjectInfoViewModel.h; sourceTree = "<group>"; };
 		3220AB9E1E5477D400393393 /* ObjectInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectInfoViewModel.m; path = ObjectInfoViewModel/ObjectInfoViewModel.m; sourceTree = "<group>"; };
 		3233F9301E47D4EE0039019B /* ManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObject.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		32A21A531E4797AF00DCDABA /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		32A21A541E4797AF00DCDABA /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		32A21A551E4797AF00DCDABA /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
-		32A21A581E4797DA00DCDABA /* MainModuleConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModuleConstructor.h; sourceTree = "<group>"; };
-		32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModuleConstructor.m; sourceTree = "<group>"; };
 		32A21A5D1E47995F00DCDABA /* MainControllerInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControllerInputProtocol.h; sourceTree = "<group>"; };
 		32A21A5E1E47997B00DCDABA /* MainControllerOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControllerOutputProtocol.h; sourceTree = "<group>"; };
 		32A21A5F1E47999A00DCDABA /* MainInteractorInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInteractorInputProtocol.h; sourceTree = "<group>"; };
@@ -71,8 +71,6 @@
 		32AD2B511E525B6F0031CC54 /* ObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectController.h; sourceTree = "<group>"; };
 		32AD2B521E525B6F0031CC54 /* ObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectController.m; sourceTree = "<group>"; };
 		32AD2B531E525B6F0031CC54 /* ObjectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectController.xib; sourceTree = "<group>"; };
-		32AD2B561E525BA40031CC54 /* ObjectModuleConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectModuleConstructor.h; sourceTree = "<group>"; };
-		32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectModuleConstructor.m; sourceTree = "<group>"; };
 		32AD2B5B1E525BDF0031CC54 /* ObjectControllerInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectControllerInputProtocol.h; sourceTree = "<group>"; };
 		32AD2B5C1E525BF80031CC54 /* ObjectControllerOutputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectControllerOutputProtocol.h; sourceTree = "<group>"; };
 		32AD2B5D1E525C160031CC54 /* ObjectInteractorInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInteractorInputProtocol.h; sourceTree = "<group>"; };
@@ -81,6 +79,12 @@
 		32AD2B601E525C420031CC54 /* ObjectPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectPresenter.m; sourceTree = "<group>"; };
 		32AD2B621E525C590031CC54 /* ObjectInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInteractor.h; sourceTree = "<group>"; };
 		32AD2B631E525C590031CC54 /* ObjectInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInteractor.m; sourceTree = "<group>"; };
+		3EB0D18DAE9A1934D758FDDC /* Pods-TEST_VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEST_VIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TEST_VIPER/Pods-TEST_VIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		759EABCB1E57004F00D3EE9F /* MainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainAssembly.h; sourceTree = "<group>"; };
+		759EABCC1E57004F00D3EE9F /* MainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAssembly.m; sourceTree = "<group>"; };
+		759EABCE1E5700CC00D3EE9F /* ObjectAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectAssembly.h; sourceTree = "<group>"; };
+		759EABCF1E5700CC00D3EE9F /* ObjectAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectAssembly.m; sourceTree = "<group>"; };
+		E3E4AE111E2F92210B8C0073 /* libPods-TEST_VIPER.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TEST_VIPER.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F810EC3C014E7AC885AFD442 /* libPods-TEST_VIPER.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,11 +203,21 @@
 			path = ManagedObjectStorage;
 			sourceTree = "<group>";
 		};
+		3293F277726F60BE4A4AC5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E4AE111E2F92210B8C0073 /* libPods-TEST_VIPER.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32A21A261E47969000DCDABA = {
 			isa = PBXGroup;
 			children = (
 				32A21A311E47969100DCDABA /* TEST_VIPER */,
 				32A21A301E47969100DCDABA /* Products */,
+				D5E34A3FC98D1BD8F7FB3196 /* Pods */,
+				3293F277726F60BE4A4AC5D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,8 +276,7 @@
 		32A21A521E4797AF00DCDABA /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				32A21A581E4797DA00DCDABA /* MainModuleConstructor.h */,
-				32A21A591E4797DA00DCDABA /* MainModuleConstructor.m */,
+				759EABC91E56FFFB00D3EE9F /* MainAssembly */,
 				32A21A5C1E47995F00DCDABA /* Protocols */,
 				32A21A531E4797AF00DCDABA /* MainController.h */,
 				32A21A541E4797AF00DCDABA /* MainController.m */,
@@ -292,8 +306,7 @@
 		32AD2B501E525B6F0031CC54 /* ObjectModule */ = {
 			isa = PBXGroup;
 			children = (
-				32AD2B561E525BA40031CC54 /* ObjectModuleConstructor.h */,
-				32AD2B571E525BA40031CC54 /* ObjectModuleConstructor.m */,
+				759EABCA1E57001400D3EE9F /* ObjectAssembly */,
 				32AD2B5A1E525BDF0031CC54 /* Protocols */,
 				32AD2B511E525B6F0031CC54 /* ObjectController.h */,
 				32AD2B521E525B6F0031CC54 /* ObjectController.m */,
@@ -317,6 +330,33 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		759EABC91E56FFFB00D3EE9F /* MainAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				759EABCB1E57004F00D3EE9F /* MainAssembly.h */,
+				759EABCC1E57004F00D3EE9F /* MainAssembly.m */,
+			);
+			path = MainAssembly;
+			sourceTree = "<group>";
+		};
+		759EABCA1E57001400D3EE9F /* ObjectAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				759EABCE1E5700CC00D3EE9F /* ObjectAssembly.h */,
+				759EABCF1E5700CC00D3EE9F /* ObjectAssembly.m */,
+			);
+			path = ObjectAssembly;
+			sourceTree = "<group>";
+		};
+		D5E34A3FC98D1BD8F7FB3196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EB0D18DAE9A1934D758FDDC /* Pods-TEST_VIPER.debug.xcconfig */,
+				1FC4A0F22B9E674F8A256F52 /* Pods-TEST_VIPER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -324,9 +364,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32A21A461E47969100DCDABA /* Build configuration list for PBXNativeTarget "TEST_VIPER" */;
 			buildPhases = (
+				9D6768DA8042EA68350C8817 /* [CP] Check Pods Manifest.lock */,
 				32A21A2B1E47969000DCDABA /* Sources */,
 				32A21A2C1E47969000DCDABA /* Frameworks */,
 				32A21A2D1E47969000DCDABA /* Resources */,
+				369DCFF1D1304A28E64FC51D /* [CP] Embed Pods Frameworks */,
+				C7BB5627CA268E89D247BD83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,7 +391,8 @@
 				TargetAttributes = {
 					32A21A2E1E47969000DCDABA = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = XSPQS9H3SF;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -385,19 +429,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		369DCFF1D1304A28E64FC51D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TEST_VIPER/Pods-TEST_VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6768DA8042EA68350C8817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BB5627CA268E89D247BD83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TEST_VIPER/Pods-TEST_VIPER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32A21A2B1E47969000DCDABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				32A21A371E47969100DCDABA /* AppDelegate.m in Sources */,
+				759EABD01E5700CC00D3EE9F /* ObjectAssembly.m in Sources */,
 				32AD2B541E525B6F0031CC54 /* ObjectController.m in Sources */,
 				3233F9431E47D4EE0039019B /* ObjectTableViewCell.m in Sources */,
 				32A21A561E4797AF00DCDABA /* MainController.m in Sources */,
 				32A21A6A1E479A1600DCDABA /* MainRouter.m in Sources */,
 				32A21A341E47969100DCDABA /* main.m in Sources */,
 				32A21A671E479A0500DCDABA /* MainInteractor.m in Sources */,
-				32A21A5A1E4797DA00DCDABA /* MainModuleConstructor.m in Sources */,
 				32AD2B611E525C420031CC54 /* ObjectPresenter.m in Sources */,
 				3233F9411E47D4EE0039019B /* NonameService.m in Sources */,
 				3233F9401E47D4EE0039019B /* ManagedObject.m in Sources */,
@@ -405,7 +497,7 @@
 				3233F94C1E47D5580039019B /* ManagedObjectStorage.m in Sources */,
 				3220AB9F1E5477D400393393 /* ObjectInfoViewModel.m in Sources */,
 				3233F9421E47D4EE0039019B /* ObjectViewModel.m in Sources */,
-				32AD2B581E525BA40031CC54 /* ObjectModuleConstructor.m in Sources */,
+				759EABCD1E57004F00D3EE9F /* MainAssembly.m in Sources */,
 				32AD2B641E525C590031CC54 /* ObjectInteractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,19 +606,25 @@
 		};
 		32A21A471E47969100DCDABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB0D18DAE9A1934D758FDDC /* Pods-TEST_VIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XSPQS9H3SF;
 				INFOPLIST_FILE = TEST_VIPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitriy.baklanov.TEST-VIPER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ef1fec86-f826-4a30-ac10-dc31f197b36f";
+				PROVISIONING_PROFILE_SPECIFIER = arturDev;
 			};
 			name = Debug;
 		};
 		32A21A481E47969100DCDABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC4A0F22B9E674F8A256F52 /* Pods-TEST_VIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TEST_VIPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitriy.baklanov.TEST-VIPER";
