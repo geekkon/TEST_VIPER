@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "MainModuleConstructor.h"
 
 @interface AppDelegate ()
 
@@ -17,10 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-        
-    UIViewController *rootController = [MainModuleConstructor constructModule];
     
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootController];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.controller];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     

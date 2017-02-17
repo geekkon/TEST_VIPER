@@ -17,6 +17,6 @@
 @property (nonatomic, weak) id <ObjectControllerInputProtocol> controller;
 @property (nonatomic, strong) id <ObjectInteractorInputProtocol> interactor;
 
-- (instancetype)initWithObjectID:(NSInteger)objectID;
+@property (strong, nonatomic) NSNumber *objectID;
 
 @end
